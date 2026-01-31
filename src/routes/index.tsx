@@ -3,36 +3,14 @@ import { useState } from 'react'
 import { CVData } from '../types/cv'
 import { getCVContent } from '../server/cv'
 import Intro from '../components/Intro'
+import ProfessionalExperience from '../components/ProfessionalExperience'
 
-// Mock Data - In the future, move this to a loader
-const cvData: CVData = {
-  name: "Alex Developer",
-  title: "Senior Full Stack Engineer",
-  summary: "Building scalable web applications with the TanStack ecosystem.",
-  experience: [
-    {
-      id: "1",
-      company: "Tech Corp",
-      role: "Senior Engineer",
-      period: "2021 - Present",
-      description: "Leading the frontend migration to React and TypeScript."
-    }
-  ],
-  projects: [
-    {
-      id: "p1",
-      title: "TanStack Portfolio",
-      techStack: ["React", "TanStack Start", "Tailwind"],
-      url: "https://github.com/example/repo"
-    }
-  ]
-}
 
 export const Route = createFileRoute('/')({
   component: Home,
   loader: async () => {
     const content = await getCVContent()
-    return { ...cvData, content }
+    return { content }
   },
 })
 
@@ -43,8 +21,17 @@ function Home() {
 
   // Construct the key to look up in the loaded content
   // e.g., "intro-en" or "intro-en-sum"
-  const introKey = `intro-${lang}${summ ? '-sum' : ''}`
+  const suffix = `-${lang}${summ ? '-sum' : ''}`
+  const introKey = `intro${suffix}`
   const introData = data.content?.intro?.[introKey]
+  const metaKey = `meta${suffix}`
+  const metaData = data.content?.meta?.[metaKey]
+
+  const professionalContent = data.content?.professional || {}
+  const experiences = Object.keys(professionalContent)
+    .filter((key) => key.endsWith(suffix))
+    .map((key) => professionalContent[key])
+    .sort((a, b) => new Date(b.frontmatter.start).getTime() - new Date(a.frontmatter.start).getTime())
 
   return (
     <div className="p-8 max-w-4xl mx-auto font-sans">
@@ -70,23 +57,9 @@ function Home() {
 
       <Intro data={introData} />
 
-      <section className="mb-12">
-        <h3 className="text-2xl font-semibold mb-6">Experience</h3>
-        <div className="space-y-8">
-          {data.experience.map((job) => (
-            <div key={job.id} className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="text-gray-500 font-medium">{job.period}</div>
-              <div className="md:col-span-3">
-                <h4 className="font-bold text-lg">{job.company}</h4>
-                <div className="text-gray-700 italic mb-2">{job.role}</div>
-                <p>{job.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      <ProfessionalExperience title={metaData?.frontmatter?.titleProf} experiences={experiences} />
 
-      <section>
+      {/* <section>
         <h3 className="text-2xl font-semibold mb-6">Projects</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {data.projects.map((project) => (
@@ -107,7 +80,7 @@ function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

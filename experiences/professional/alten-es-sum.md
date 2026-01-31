@@ -5,8 +5,17 @@ start: '2023-01-18'
 end: 'Present'
 company: Alten Spain
 location: Madrid, España
-people: 1
+people: 4
 ---
+- Desarrollo para el cliente de unas **Azure Functions (Python) dockerizadas** integrada con la **Inteligencia Artificial de Azure** para la tramitación de subvenciones
+	- Liderazgo del equipo tras la baja de paternidad de nuestro Team Lead
+	- Classificación y extracción de datos de los documentos: **Azure Document Intelligence** **Azure Custom Vision**, **Azure OpenAI**
+	- Uso avanzado y customización de **Pydantic**
+	- Desencadenadores de tipo HTTP and de colas con **Azure Storage Queues**
+	- Almacenaje de documentos y resultados en **Azure Blob Storage** y **Azure CosmosDB**
+	- Chatbot basado en RAG: **Azure AI Foundry**, **Azure AI Search**, **Langchain**
+	- CI/CD con **Azure DevOps** y **pytest**
+	- Migración del código monolítico a microservicios: **Bitbucket**, librerías con **uv** y **AWS CodeArtifact**, IaC (**Terraform**)
 - Desarrollo del **backend** para la app de **Django** del cliente
 	- Nuevas funcionalidades, correcciones de bugs, y limpieza del código de su app
 	- Abastecimiento de contenido multimedia de **AWS S3**
