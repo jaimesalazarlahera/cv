@@ -7,13 +7,12 @@ interface Job {
     location: string
     start: string
     end: string
-    people?: number
     [key: string]: any
   }
   content: string
 }
 
-interface ProfessionalExperienceProps {
+interface AcademicExperienceProps {
   title: string
   experiences: Job[]
 }
@@ -26,7 +25,7 @@ function formatDate(date: string) {
   return date
 }
 
-export default function ProfessionalExperience({ title, experiences }: ProfessionalExperienceProps) {
+export default function AcademicExperience({ title, experiences }: AcademicExperienceProps) {
   return (
     <section className="mb-12">
       <h3 className="text-2xl font-semibold mb-6 text-center">{title}</h3>
@@ -36,10 +35,9 @@ export default function ProfessionalExperience({ title, experiences }: Professio
             <div className="flex justify-between items-baseline mb-2">
               <div className="flex items-baseline gap-2">
                 <h4 className="font-bold text-lg">{job.frontmatter.title}</h4>
-                {job.frontmatter.people ? <span className="text-sm text-gray-600">(Responsible for {job.frontmatter.people} people)</span> : null}
               </div>
               <div className="text-gray-500 font-medium text-sm text-right">
-                {formatDate(job.frontmatter.start)} &mdash; {formatDate(job.frontmatter.end)}
+                {formatDate(job.frontmatter.end)}
               </div>
             </div>
             <div className="text-gray-700 italic mb-4">{job.frontmatter.company} &middot; {job.frontmatter.location}</div>

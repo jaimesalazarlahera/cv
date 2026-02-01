@@ -4,6 +4,8 @@ import { CVData } from '../types/cv'
 import { getCVContent } from '../server/cv'
 import Intro from '../components/Intro'
 import ProfessionalExperience from '../components/ProfessionalExperience'
+import AcademicExperience from '../components/AcademicExperience'
+import Projects from '../components/Projects'
 
 
 export const Route = createFileRoute('/')({
@@ -33,6 +35,28 @@ function Home() {
     .map((key) => professionalContent[key])
     .sort((a, b) => new Date(b.frontmatter.start).getTime() - new Date(a.frontmatter.start).getTime())
 
+  const academicContent = data.content?.academic || {}
+  const academicExperiences = Object.keys(academicContent)
+    .filter((key) => key.endsWith(suffix))
+    .map((key) => academicContent[key])
+    .sort((a, b) => new Date(b.frontmatter.start).getTime() - new Date(a.frontmatter.start).getTime())
+
+  const skillsContent = data.content?.skills || {}
+  const skills = Object.keys(skillsContent)
+    .filter((key) => key.endsWith(suffix))
+    .map((key) => skillsContent[key])
+    .sort((a, b) => (a.frontmatter.order || 0) - (b.frontmatter.order || 0))
+
+  const projectsContent = data.content?.projects || data.content?.project || {}
+  const projects = Object.keys(projectsContent)
+    .filter((key) => key.endsWith(suffix))
+    .map((key) => projectsContent[key])
+    .sort((a, b) => {
+      const dateA = new Date(a.frontmatter.end || a.frontmatter.start || 0).getTime()
+      const dateB = new Date(b.frontmatter.end || b.frontmatter.start || 0).getTime()
+      return dateB - dateA
+    })
+
   return (
     <div className="p-8 max-w-4xl mx-auto font-sans">
       <div className="flex justify-end gap-4 mb-8 text-sm">
@@ -55,32 +79,20 @@ function Home() {
         </label>
       </div>
 
-      <Intro data={introData} />
+      <Intro data={introData} skills={skills} metaData={metaData} />
 
-      <ProfessionalExperience title={metaData?.frontmatter?.titleProf} experiences={experiences} />
+      {experiences.length > 0 && (
+        <ProfessionalExperience title={metaData?.frontmatter?.titleProf} experiences={experiences} />
+      )}
 
-      {/* <section>
-        <h3 className="text-2xl font-semibold mb-6">Projects</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {data.projects.map((project) => (
-            <div key={project.id} className="border rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h4 className="font-bold text-lg mb-2">{project.title}</h4>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.techStack.map(tech => (
-                  <span key={tech} className="bg-gray-100 px-2 py-1 rounded text-sm text-gray-700">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              {project.url && (
-                <a href={project.url} className="text-blue-600 hover:underline">
-                  View Project &rarr;
-                </a>
-              )}
-            </div>
-          ))}
-        </div>
-      </section> */}
+      {academicExperiences.length > 0 && (
+        <AcademicExperience title={metaData?.frontmatter?.titleAcad} experiences={academicExperiences} />
+      )}
+
+      {projects.length > 0 && (
+        <Projects title={metaData?.frontmatter?.titleProjects} projects={projects} />
+      )}
+
     </div>
   )
 }
