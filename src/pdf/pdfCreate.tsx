@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 // @ts-ignore
 import pdfMake from "pdfmake/build/pdfmake";
 import { vfs } from "./vfs_fonts";
@@ -91,46 +90,3 @@ export const generateCVPdf = async ({
     const filename = getDownloadedPDFName(lang, sum);
     pdfMake.createPdf(docDefinition).download(filename);
 };
-
-interface PdfExportProps {
-    lang: string;
-    sum: boolean;
-}
-
-export default function PdfExport({ lang, sum }: PdfExportProps) {
-    useEffect(() => {
-        // Required to load fonts
-        if (pdfMake.vfs) {
-            pdfMake.vfs = vfs;
-        }
-    }, []);
-
-    const generatePdf = async () => {
-        console.log(`Generating PDF with ${lang} and ${sum}`);
-
-        const response = await fetch(`/api/cv?lang=${lang}&sum=${sum}`);
-        const allCVData = await response.json();
-        console.log("Got CV data", allCVData);
-
-        const meta = allCVData.meta[0];
-        await generateCVPdf({
-            lang,
-            sum,
-            meta,
-            intro: allCVData.intro[0],
-            professional: allCVData.professional,
-            academic: allCVData.academic,
-            skills: allCVData.skills,
-            projects: allCVData.project,
-        });
-    };
-
-    return (
-        <button
-            onClick={generatePdf}
-            className="bg-blue-600 text-white px-4 py-2 rounded"
-        >
-            Generate PDF for {`${lang}-${sum}`}
-        </button>
-    );
-}

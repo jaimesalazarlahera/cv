@@ -1,8 +1,8 @@
 export function getDownloadedPDFName(lang: string, sum: boolean) {
     const language = lang === "en" ? "English" : "Español";
-    const prefix = sum ? "Summary" : "Full";
+    const type = sum ? "Resumé" : "CV";
 
-    return `CV ${prefix} (${language}) - Jaime Salazar Lahera.pdf`;
+    return `${type} (${language}) - Jaime Salazar Lahera.pdf`;
 }
 
 
