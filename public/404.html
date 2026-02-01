@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirecting...</title>
     <script>
-        // Redirect 404s to the index.html with the original path
+        var segment = ~~(Math.random() * 1e4);
         sessionStorage.redirect = location.href;
     </script>
     <meta http-equiv="refresh" content="0;URL='/cv/'">
-    </meta>
 </head>
 
-<body></body>
+<body>
+</body>
 
 </html>
