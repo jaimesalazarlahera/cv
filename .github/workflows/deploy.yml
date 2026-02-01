@@ -26,6 +26,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+      - run: ls -la
+      - run: test -d dist || (echo "dist directory not found" && exit 1)
 
       - uses: actions/upload-pages-artifact@v3
         with:
