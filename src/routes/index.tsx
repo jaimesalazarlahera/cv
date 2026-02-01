@@ -1,11 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import { CVData } from '../types/cv'
 import { getCVContent } from '../server/cv'
 import Intro from '../components/Intro'
 import ProfessionalExperience from '../components/ProfessionalExperience'
 import AcademicExperience from '../components/AcademicExperience'
 import Projects from '../components/Projects'
+import { generateCVPdf } from '../pdf/pdfCreate'
 
 
 export const Route = createFileRoute('/')({
@@ -57,9 +57,22 @@ function Home() {
       return dateB - dateA
     })
 
+  const generatePdf = async () => {
+    await generateCVPdf({
+      lang,
+      sum: summ,
+      meta: metaData?.frontmatter,
+      intro: introData,
+      professional: experiences,
+      academic: academicExperiences,
+      skills,
+      projects,
+    })
+  }
+
   return (
     <div className="p-8 max-w-4xl mx-auto font-sans">
-      <div className="flex justify-end gap-4 mb-8 text-sm">
+      <div className="flex justify-end gap-4 mb-8 text-sm print:hidden">
         <div className="flex bg-gray-100 rounded p-1">
           <button
             onClick={() => setLang('en')}
@@ -74,15 +87,27 @@ function Home() {
             ES
           </button>
         </div>
-        <label className="flex items-center gap-2 cursor-pointer select-none text-gray-600">
-          <input type="checkbox" checked={summ} onChange={(e) => setSumm(e.target.checked)} /> Summarized
-        </label>
+        <button
+          onClick={generatePdf}
+          className="px-3 py-1 rounded bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+        >
+          PDF
+        </button>
+        <button
+          onClick={() => setSumm(!summ)}
+          className="flex items-center gap-2 cursor-pointer select-none text-gray-600"
+        >
+          <div className={`relative w-9 h-5 transition-colors duration-200 ease-in-out rounded-full ${summ ? 'bg-gray-600' : 'bg-gray-200'}`}>
+            <div className={`absolute left-0.5 top-0.5 bg-white w-4 h-4 rounded-full shadow transform transition-transform duration-200 ease-in-out ${summ ? 'translate-x-4' : 'translate-x-0'}`} />
+          </div>
+          Summarized
+        </button>
       </div>
 
       <Intro data={introData} skills={skills} metaData={metaData} />
 
       {experiences.length > 0 && (
-        <ProfessionalExperience title={metaData?.frontmatter?.titleProf} experiences={experiences} />
+        <ProfessionalExperience title={metaData?.frontmatter?.titleProf} experiences={experiences} lang={lang} />
       )}
 
       {academicExperiences.length > 0 && (

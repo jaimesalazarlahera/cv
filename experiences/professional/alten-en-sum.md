@@ -1,6 +1,6 @@
 ---
 type: professional
-title: 'Senior Programmer Analyst'
+title: 'Senior Backend Programmer'
 start: '2023-01-18'
 end: 'Present'
 company: Alten Spain
