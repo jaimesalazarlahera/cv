@@ -3,4 +3,4 @@ type: skills
 title: 'Inglés a nivel nativo'
 start: '1970-01-02'
 ---
-Nivel nativo en inglés hablado y por escrito gracias a una formación y años de trabajo en EEUU
+**Inglés a nivel nativo** debido a una formación y experiencia laboral en el extranjero
