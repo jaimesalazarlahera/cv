@@ -10,13 +10,9 @@ import Controls from '../components/Controls'
 
 export const Route = createFileRoute('/')({
   component: Home,
-  loader: async () => {
-    return { content: cvContent }
-  },
 })
 
 function Home() {
-  const data = Route.useLoaderData()
   const [lang, setLang] = useState<'en' | 'es'>('en')
   const [summ, setSumm] = useState<boolean>(false)
 
@@ -24,29 +20,29 @@ function Home() {
   // e.g., "intro-en" or "intro-en-sum"
   const suffix = `-${lang}${summ ? '-sum' : ''}`
   const introKey = `intro${suffix}`
-  const introData = data.content?.intro?.[introKey]
+  const introData = cvContent?.intro?.[introKey]
   const metaKey = `meta${suffix}`
-  const metaData = data.content?.meta?.[metaKey]
+  const metaData = cvContent?.meta?.[metaKey]
 
-  const professionalContent = data.content?.professional || {}
+  const professionalContent = cvContent?.professional || {}
   const experiences = Object.keys(professionalContent)
     .filter((key) => key.endsWith(suffix))
     .map((key) => professionalContent[key])
     .sort((a, b) => new Date(b.frontmatter.start).getTime() - new Date(a.frontmatter.start).getTime())
 
-  const academicContent = data.content?.academic || {}
+  const academicContent = cvContent?.academic || {}
   const academicExperiences = Object.keys(academicContent)
     .filter((key) => key.endsWith(suffix))
     .map((key) => academicContent[key])
     .sort((a, b) => new Date(b.frontmatter.start).getTime() - new Date(a.frontmatter.start).getTime())
 
-  const skillsContent = data.content?.skills || {}
+  const skillsContent = cvContent?.skills || {}
   const skills = Object.keys(skillsContent)
     .filter((key) => key.endsWith(suffix))
     .map((key) => skillsContent[key])
     .sort((a, b) => (a.frontmatter.order || 0) - (b.frontmatter.order || 0))
 
-  const projectsContent = data.content?.projects || data.content?.project || {}
+  const projectsContent = cvContent?.projects || cvContent?.project || {}
   const projects = Object.keys(projectsContent)
     .filter((key) => key.endsWith(suffix))
     .map((key) => projectsContent[key])
