@@ -27,8 +27,8 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - run: ls -la .output/public | head -20
       - run: test -f .output/public/index.html && echo "index.html found" || echo "index.html NOT found"
+      - run: ls .output/public/
 
       - uses: actions/upload-pages-artifact@v3
         with:
