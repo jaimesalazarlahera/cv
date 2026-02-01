@@ -13,6 +13,13 @@ const config = defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/[name].js',
+      },
+    },
+  },
   plugins: [
     devtools(),
     nitro(),
