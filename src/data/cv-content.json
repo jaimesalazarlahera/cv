@@ -1,0 +1,646 @@
+{
+  "academic": {
+    "ass-en-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Associates´s Degree in Environmental Science and Policy",
+        "start": "2010-01-01",
+        "end": "2011-05-15",
+        "company": "Montgomery College",
+        "location": "Maryland, USA"
+      },
+      "content": "\n- 2 year degree as a midpoint towards the Bacherlor's Degree\n"
+    },
+    "ass-en": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Associates´s Degree in Environmental Science and Policy",
+        "start": "2010-01-01",
+        "end": "2011-05-15",
+        "company": "Montgomery College",
+        "location": "Maryland, USA"
+      },
+      "content": "\n- 2 year degree as a midpoint towards the Bacherlor's Degree\n"
+    },
+    "ass-es-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Associates´s Degree en Ciencias y Política Medioambiental",
+        "start": "2010-01-01",
+        "end": "2011-05-15",
+        "company": "Montgomery College",
+        "location": "Maryland, EEUU"
+      },
+      "content": "\n- Título de 2 años como punto intermedio hacia la Licenciatura\n"
+    },
+    "ass-es": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Associates´s Degree en Ciencias y Política Medioambiental",
+        "start": "2010-01-01",
+        "end": "2011-05-15",
+        "company": "Montgomery College",
+        "location": "Maryland, EEUU"
+      },
+      "content": "\n- Título de 2 años como punto intermedio hacia la Licenciatura\n"
+    },
+    "bachelor-en-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Bachelor´s Degree in Environmental Science",
+        "start": "2011-09-01",
+        "end": "2013-12-15",
+        "company": "University of Maryland, College Park",
+        "location": "Maryland, USA"
+      },
+      "content": "- Graduated _cum laude_\n- Minor in Ecological Technology Design and Geographic Information Systems (GIS)\n"
+    },
+    "bachelor-en": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Bachelor´s Degree in Environmental Science",
+        "start": "2011-09-01",
+        "end": "2013-12-15",
+        "company": "University of Maryland, College Park",
+        "location": "Maryland, USA"
+      },
+      "content": "- Graduated _cum laude_\n- Minor in Ecological Technology Design and Geographic Information Systems (GIS)\n"
+    },
+    "bachelor-es-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Licenciatura en Ciencias Medioambientales",
+        "start": "2011-09-01",
+        "end": "2013-12-15",
+        "company": "University of Maryland, College Park",
+        "location": "Maryland, EEUU"
+      },
+      "content": "- Graduated _cum laude_\n- Subespecialización in Ecological Technology Design and Geographic Information Systems (GIS)\n"
+    },
+    "bachelor-es": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Licenciatura en Ciencias Medioambientales",
+        "start": "2011-09-01",
+        "end": "2013-12-15",
+        "company": "University of Maryland, College Park",
+        "location": "Maryland, EEUU"
+      },
+      "content": "- Graduated _cum laude_\n- Subespecialización in Ecological Technology Design and Geographic Information Systems (GIS)\n"
+    },
+    "master-en-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Master´s Degree in Electromechanical Engineering",
+        "start": "2016-09-15",
+        "end": "2019-02-28",
+        "company": "Polytechnic University of Madrid (UPM)",
+        "location": "Madrid, Spain"
+      },
+      "content": "- Master’s Thesis - Autonomous Agricultural Robot\n- Prototyping with Arduino, Raspberry Pi, Flask, and MongoDB\n- PLC programming, NI LabView graphical programming, MATLAB\n- Electrical and mechanical simulation with Festo FluidSIM, QUCS, and SAM"
+    },
+    "master-en": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Master´s Degree in Electromechanical Engineering",
+        "start": "2016-09-15",
+        "end": "2019-02-28",
+        "company": "Polytechnic University of Madrid (UPM)",
+        "location": "Madrid, Spain"
+      },
+      "content": "- Master’s Thesis - Autonomous Agricultural Robot\n- Prototyping with Arduino (I2C, MQTT, PID control) and Raspberry Pi with Flask and MongoDB\n- PLC programming (Siemens STEP7 and WinCC)\n- NI LabView graphical programming\n- Robot kinematics with MATLAB\n- Electrical and mechanical simulation with Festo FluidSIM, QUCS, and SAM"
+    },
+    "master-es-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Máster en Ingeniería Electromecánica",
+        "start": "2016-09-15",
+        "end": "2019-02-28",
+        "company": "Universidad Politécnica de Madrid (UPM)",
+        "location": "Madrid, España"
+      },
+      "content": "- Trabajo Fin de Máster - Robot Agrícola Autónomo\n- Protipado con Arduino, Raspberry Pi, Flask, y MongoDB\n- Programación de PLCs, programación gráfica con NI LabView, MATLAB\n- Simulación eléctrica y mecánica con Festo FluidSIM, QUCS, y SAM"
+    },
+    "master-es": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Máster en Ingeniería Electromecánica",
+        "start": "2016-09-15",
+        "end": "2019-02-28",
+        "company": "Universidad Politécnica de Madrid (UPM)",
+        "location": "Madrid, España"
+      },
+      "content": "- Trabajo Fin de Máster - Robot Agrícola Autónomo\n- Protipado con Arduino (I2C, MQTT, control PID) y Raspberry Pi con Flask y MongoDB\n- Programación de PLCs (Siemens STEP7 y WinCC)\n- Programación gráfica con NI LabView\n- Cinemática de robots con MATLAB\n- Simulación eléctrica y mecánica con Festo FluidSIM, QUCS, y SAM"
+    },
+    "mont-en-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Bachelor´s Degree in Forestry Engineering",
+        "start": "2007-10-01",
+        "end": "2009-06-01",
+        "company": "Polytechnic University of Madrid",
+        "location": "Madrid, Spain"
+      },
+      "content": "\n- First 2 years of the degree before transferring to USA\n"
+    },
+    "mont-en": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Bachelor´s Degree in Forestry Engineering",
+        "start": "2007-10-01",
+        "end": "2009-06-01",
+        "company": "Polytechnic University of Madrid",
+        "location": "Madrid, Spain"
+      },
+      "content": "\n- First 2 years of the degree before transferring to USA\n"
+    },
+    "mont-es-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Licenciatura en Ingeniería de Montes",
+        "start": "2007-10-01",
+        "end": "2009-06-01",
+        "company": "Universidad Politécnica de Madrid",
+        "location": "Madrid, España"
+      },
+      "content": "\n- Primeros 2 años de carrera antes de transferirme a EEUU\n"
+    },
+    "mont-es": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Licenciatura en Ingeniería de Montes",
+        "start": "2007-10-01",
+        "end": "2009-06-01",
+        "company": "Universidad Politécnica de Madrid",
+        "location": "Madrid, España"
+      },
+      "content": "\n- Primeros 2 años de carrera antes de transferirme a EEUU\n"
+    },
+    "ugcourses-en-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Undegraduate Courses",
+        "start": "2014-01-01",
+        "end": "2016-06-01",
+        "company": "Polytechnic University of Madrid / Montgomery College",
+        "location": "Madrid, Spain / Maryland, USA"
+      },
+      "content": "\n- Introductory subjects in electronic engineering\n"
+    },
+    "ugcourses-en": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Undegraduate Courses",
+        "start": "2014-01-01",
+        "end": "2016-06-01",
+        "company": "Polytechnic University of Madrid / Montgomery College",
+        "location": "Madrid, Spain / Maryland, USA"
+      },
+      "content": "\n- Electronics, Automation, Circuit Theory, Thermodynamics, Fluid Mechanics\n- Differential Equations, Physics III\n"
+    },
+    "ugcourses-es-sum": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Cursos de grado",
+        "start": "2014-01-01",
+        "end": "2016-06-01",
+        "company": "Universidad Politécnica de Madrid / Montgomery College",
+        "location": "Madrid, España / Maryland, EEUU"
+      },
+      "content": "\n- Asignaturas fundamentales de ingeniería electrónica"
+    },
+    "ugcourses-es": {
+      "frontmatter": {
+        "type": "academic",
+        "title": "Cursos de grado",
+        "start": "2014-01-01",
+        "end": "2016-06-01",
+        "company": "Universidad Politécnica de Madrid / Montgomery College",
+        "location": "Madrid, España / Maryland, EEUU"
+      },
+      "content": "\n- Electrónica, Automática, Teoría de Circuitos, Termodinámica, Mecánica de Fluidos\n- Ecuaciones Diferenciales, Física III\n"
+    }
+  },
+  "intro": {
+    "intro-en-sum": {
+      "frontmatter": {
+        "type": "intro",
+        "title": "Senior Programmer",
+        "start": "1970-01-01",
+        "end": "Present",
+        "company": "Handsome, Inc",
+        "location": "Madrid, Spain",
+        "people": 0
+      },
+      "content": "Senior Backend Programmer with **5+ years of experience** implementing backends and automating a variety of business needs. Focused on **programming best practices and process improvement**, providing skills crafted in an international context."
+    },
+    "intro-en": {
+      "frontmatter": {
+        "type": "intro",
+        "title": "Senior Programmer",
+        "start": "1970-01-01",
+        "end": "Present",
+        "company": "Handsome, Inc",
+        "location": "Madrid, Spain",
+        "people": 0
+      },
+      "content": "Senior Backend Programmer with **5+ years of experience** implementing backends and automating a variety of business needs. Focused on **programming best practices and process improvement**, providing skills crafted in an international context."
+    },
+    "intro-es-sum": {
+      "frontmatter": {
+        "type": "intro",
+        "title": "Senior Programmer",
+        "start": "1970-01-01",
+        "end": "Present",
+        "company": "Handsome, Inc",
+        "location": "Madrid, Spain",
+        "people": 0
+      },
+      "content": "Desarrollador Backend Senior con **5+ años de experiencia** implementando backends y automatizando una variedad de procesos de negocio. Enfocado en las **buenas prácticas de programación y la mejora de procesos**, proporcionando habilidades adquiridas en un entorno internacional."
+    },
+    "intro-es": {
+      "frontmatter": {
+        "type": "intro",
+        "title": "Senior Programmer",
+        "start": "1970-01-01",
+        "end": "Present",
+        "company": "Handsome, Inc",
+        "location": "Madrid, Spain",
+        "people": 0
+      },
+      "content": "Desarrollador Backend Senior con **5+ años de experiencia** implementando backends y automatizando una variedad de procesos de negocio. Enfocado en las **buenas prácticas de programación y la mejora de procesos**, proporcionando habilidades adquiridas en un entorno internacional."
+    }
+  },
+  "meta": {
+    "meta-en-sum": {
+      "frontmatter": {
+        "type": "meta",
+        "buttonSum-true": "More details",
+        "buttonSum-false": "Fewer details",
+        "cvDownloadText": "Download my CV",
+        "toolTipLinkedIn": "Open in new tab",
+        "toolTipEmail": "Copy email",
+        "copyEmailAlertMessage": "Email copied to clipboard",
+        "titleProf": "Professional Experience",
+        "titleAcad": "Academic Experience",
+        "titleSkills": "Skills",
+        "titleProjects": "Projects"
+      },
+      "content": ""
+    },
+    "meta-en": {
+      "frontmatter": {
+        "type": "meta",
+        "buttonSum-true": "More details",
+        "buttonSum-false": "Fewer details",
+        "cvDownloadText": "Download my CV",
+        "toolTipLinkedIn": "Open in new tab",
+        "toolTipEmail": "Copy email",
+        "copyEmailAlertMessage": "Email copied to clipboard",
+        "titleProf": "Professional Experience",
+        "titleAcad": "Academic Experience",
+        "titleSkills": "Skills",
+        "titleProjects": "Projects"
+      },
+      "content": ""
+    },
+    "meta-es-sum": {
+      "frontmatter": {
+        "type": "meta",
+        "buttonSum-true": "Más detalles",
+        "buttonSum-false": "Menos detalles",
+        "cvDownloadText": "Descarga mi CV",
+        "toolTipLinkedIn": "Abrir en otra pestaña",
+        "toolTipEmail": "Copiar correo electrónico",
+        "copyEmailAlertMessage": "Correo copiado al portapapeles",
+        "titleProf": "Experiencia Profesional",
+        "titleAcad": "Experiencia Académica",
+        "titleSkills": "Habilidades",
+        "titleProjects": "Proyectos"
+      },
+      "content": ""
+    },
+    "meta-es": {
+      "frontmatter": {
+        "type": "meta",
+        "buttonSum-true": "Más detalles",
+        "buttonSum-false": "Menos detalles",
+        "cvDownloadText": "Descarga mi CV",
+        "toolTipLinkedIn": "Abrir en otra pestaña",
+        "toolTipEmail": "Copiar correo electrónico",
+        "copyEmailAlertMessage": "Correo copiado al portapapeles",
+        "titleProf": "Experiencia Profesional",
+        "titleAcad": "Experiencia Académica",
+        "titleSkills": "Habilidades",
+        "titleProjects": "Proyectos"
+      },
+      "content": ""
+    }
+  },
+  "professional": {
+    "alten-en-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Senior Backend Programmer",
+        "start": "2023-01-18",
+        "end": "Present",
+        "company": "Alten Spain",
+        "location": "Madrid, Spain",
+        "people": 4
+      },
+      "content": "- Development of **Dockerized Azure Functions (Python)** for the client with **Artificial Intelligence on Azure** for the processing of subsidies\n\t- Leadership of the team after the parental leave of our Team Lead\n\t- Implementation of the end-to-end process\n\t- Document classification and data extraction: **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI**\n\t- Extensive use of **Pydantic** and customization of its internal behavior\n\t- HTTP- and Queue-triggered functions (**Azure Storage Queues**)\n\t- Document and data storage: **Azure Blob Storage**, **Azure CosmosDB**\n\t- RAG-based chatbot: **Azure AI Foundry**, **Azure AI Search**, **Langchain**\n\t- CI/CD with **AzureDevOps** and **pytest**\n\t- Monolith migration to microservices: **Bitbucket**, libraries with **uv** and **AWS CodeArtifact**, IaC (**Terraform**)\n- **Backend development** for the client's **Django** app\n\t- Feature improvements, bug fixes, code cleanup\n\t- Multimedia content management in **AWS S3**\n\t- Extensive use of **pydantic**, **celery**, and **pytest**\n\t- Creation of **DRF** endpoints\n\t- Downloading from an **SFTP** server\n\t- Regular use of **gitlab pipelines**, **kubernetes**, and **DevContainer**\n\t- Jira and Confluence\n- **Backend and (some) frontend** development for the client's website apps\n\t- **ExpressJS (Typescript)** and **Ionic Vue**\n\t- **CI/CD** with GitHub Actions and Codemagic.io\n- **Business process automation** \n\t- Maintained **UiPath** bots\n\t- Pioneered **Robocorp (Python)** in the client, managed workers and Control Room\n\t- **Web automation** with Playwright: **digital certificates** (RedTrust), forms and download/upload of files in government websites and client’s CRM\n\t- Desktop automation: Java-based apps for digital certificates (AutoFirma)\n\t- Email and Slack automation for **reports and alerts**\n\t- CI/CD: **GitHub Actions** pipeline including testing and deployment to Robocorp's Control Room\n\t- Some basic Terraform tasks\n\t- Setting up an Automations CoE and a Governance Service: development of **internal libraries, tools, and templates**, monitoring, and mentoring\n\n"
+    },
+    "alten-en": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Senior Backend Programmer",
+        "start": "2023-01-18",
+        "end": "Present",
+        "company": "Alten Spain",
+        "location": "Madrid, Spain",
+        "people": 4
+      },
+      "content": "- Development of **Dockerized Azure Functions (Python)** for the client (a regional government) integrated with **Artificial Intelligence on Azure** for the processing of subsidies\n\t- Took on the leadership role after our Team Lead left on parental leave\n\t- Implementation of the process from the incoming request to the storage of data and documents\n\t- Classification of and data extraction from documents using **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI** (multimodal models)\n\t- Ample use of **Pydantic** for data validation, overriding its internals for custom, advanced behavior\n\t- Combination of HTTP- and Queue-triggered functions for our complete workflow using **Azure Storage Queues**\n\t- Retrieval of secrets from **Azure Key Vault**\n\t- Document storage in **Azure Blob Storage**\n\t- Results storage in **Azure CosmosDB**\n\t- Chatbot to help the user understand the results via RAG based on **Azure AI Foundry**, **Azure AI Search**, and **Langchain**\n\t- Testing with **pytest**\n\t- Eventual migration of the monolithic code into multiple **microservices**\n\t\t- Libraries, implemented in **Docker** with **uv**, originally hosted in **Azure Artifacts** moved to **AWS CodeArtifact**\n\t\t- CI/CD moved from **Azure DevOps** to **Bitbucket**\n\t\t- Infrastructure via **Terraform** and checked with **Lacework**\n\n- **Backend development** for the client (Immfly, an entertainment platform provider for airlines)\n\t- Feature additions and improvements, bug fixes, code cleanup and standarization for their **Django** app\n\t\t- Eg. implemented a quality control process that receives customer comments, attempts automatic diagnostics and repair of the database, and reports back (email, Mattermost)\n\t- Storage and retrieval of **multimedia** content (videos, images, audio) from **Amazon AWS S3**\n\t- Extensive use of **pydantic** validators when accepting csv and xlsx files from external companies\n\t- Migration of unittests to **pytest** and improvements in their testing strategy\n\t- Heavy use of **celery** tasks (including base tasks to standardize behavior) and some cronjobs\n\t- Creation of endpoints in **Django Rest Framework** to return content metadata\n\t- Downloading files from an external **SFTP** and upload to the client's platform\n\t- Use of **gitlab pipelines** to run scripts in the cloud environments (ie. the airplanes)\n\t- Execution in **kubernetes** pods (via kubectl as well as the web UI)\n\t- Development, testing, and debugging inside **DevContainer** for their multi-stage Dockerfile and Docker Compose setup\n\t- Handling of Jira tickets and generation of documentation in Confluence\n\n- **Backend development** and **CI/CD for the frontend** for the client's (Holaluz, a Spanish solar installer) website and Android and iOS apps\n\t- **ExpressJS (NodeJS)** server with **Typescript** deployed to AWS\n\t- **CI/CD** pipelines integrating GitHub Actions and Codemagic.io to deploy the **Ionic Vue** apps to the Google and Apple Stores\n\n- **Business process automation** for the client, Holaluz\n\t- Maintained and extended **UiPath** bots\n\t- Pioneered the use of **Robocorp (Python)** in the client\n\t\t- Setting up AWS EC2 instances as workers\n\t\t- Management of Robocorp's Control Room (ie. Orchestrator)\n\t\t- Migration of UiPath bots\n\t- **Web automation** (Playwright)\n\t\t- Signing in with **digital certificates** (RedTrust)\n\t\t- Interactions with forms and download/upload of files, interfacing with government websites and client’s CRM and file-sharing platform (Zoho)\n\t- Desktop automation: interaction with Java-based apps for digital certificates (AutoFirma) and PDF viewers that did not respond well to browser actions\n\t- Email and Slack automation for **reports and alerts**\n\t- CI/CD: **GitHub Actions** pipeline including testing and deployment to Robocorp's Control Room\n\t- Some Terraform and IaC experience to expand EC2 disk space or repository owners\n\t- Setting up an Automations CoE in the client from the ground up, as well as a Governance Service\n\t\t- Development of **internal libraries**\n\t\t\t- General utilities library for use in various projects: a template for web automations, interactions with Excel, Google Sheets, Google Drive, the OS filesystem, etc.\n\t\t\t- Library to interact with Zoho, ie. the client's CRM, file-sharing drive, and analytics module, via the web browser\n\t\t- Development of **internal tools and templates**\n\t\t\t- A template to standardize the Producer-Consumer dynamic (similar to UiPath's REFramework) as well as many QoL improvements (eg. automatic field validation, error reporting)\n\t\t\t- A tool to update an existing project to the newest version of the template via **PowerShell** scripts\n\t\t\t- A tool to simultaneously update multiple project's dependencies via Turbolift (similar to UiPath's Mass Dependency Update tool)\n\t\t- Bringing together and mentoring the members of various departments in the client, and tutoring of junior consultants\n\t\t- Development of an automated \"checklist\" to help govern and control infrastructure and automations across the company (eg. Python and powershell scripts to clean up storage space in the EC2)"
+    },
+    "alten-es-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Senior Backend Programmer",
+        "start": "2023-01-18",
+        "end": "Present",
+        "company": "Alten Spain",
+        "location": "Madrid, España",
+        "people": 4
+      },
+      "content": "- Desarrollo para el cliente de unas **Azure Functions (Python) dockerizadas** integrada con la **Inteligencia Artificial de Azure** para la tramitación de subvenciones\n\t- Liderazgo del equipo tras la baja de paternidad de nuestro Team Lead\n\t- Classificación y extracción de datos de los documentos: **Azure Document Intelligence** **Azure Custom Vision**, **Azure OpenAI**\n\t- Uso avanzado y customización de **Pydantic**\n\t- Desencadenadores de tipo HTTP and de colas con **Azure Storage Queues**\n\t- Almacenaje de documentos y resultados en **Azure Blob Storage** y **Azure CosmosDB**\n\t- Chatbot basado en RAG: **Azure AI Foundry**, **Azure AI Search**, **Langchain**\n\t- CI/CD con **Azure DevOps** y **pytest**\n\t- Migración del código monolítico a microservicios: **Bitbucket**, librerías con **uv** y **AWS CodeArtifact**, IaC (**Terraform**)\n- Desarrollo del **backend** para la app de **Django** del cliente\n\t- Nuevas funcionalidades, correcciones de bugs, y limpieza del código de su app\n\t- Abastecimiento de contenido multimedia de **AWS S3**\n\t- Extenso uso de **pydantic**, **celery**, y **pytest**\n\t- Creación de endpoints con **DRF**\n\t- Descarga de un servidor **SFTP**\n\t- Uso regular de **pipelines de gitlab**, **kubernetes**, y **DevContainer**\n\t- Jira y Confluence\n- Desarrollo del **backend y (algo) del frontend** para la web y las apps del cliente\n\t- **ExpressJS (Typescript)** y **Ionic Vue**\n\t- **CI/CD** con GitHub Actions y Codemagic.io\n- **Automatización de procesos de negocio** \n\t- Mantenimiento de bots de **UiPath**\n\t- Liderar el uso de **Robocorp (Python)** en el cliente, gestión de workers y Control Room\n\t- **Automation web** con Playwright: **certificados digitales** (RedTrust), formularios y descarga/subida de ficheros en páginas gubernamentales y el CRM del cliente\n\t- Automatización de escritorio: apps de Java para certificados digitales (AutoFirma)\n\t- Automatización Email and Slack automation for **reports and alerts**\n\t- CI/CD: **GitHub Actions** pipeline including testing and deployment to Robocorp's Control Room\n\t- Algunas tareas básicas con Terraform\n\t- Arrancar desde cero un Automations CoE y servicio de gobernanza: desarrollo de **librerías, herramientas, y plantillas internas**, monitorización, y mentorización\n\n"
+    },
+    "alten-es": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Senior Backend Programmer",
+        "start": "2023-01-18",
+        "end": "Present",
+        "company": "Alten Spain",
+        "location": "Madrid, España",
+        "people": 4
+      },
+      "content": "- Desarrollo para el cliente (el gobierno de una Comunidad Autónoma) de unas **Azure Functions (Python) dockerizadas** integrada con la **Inteligencia Artificial de Azure** para la tramitación de subvenciones\n\t- Asumí el liderazgo del equipo tras la baja de paternidad de nuestro Team Lead\n\t- Implementación del proceso desde el request hasta el almacenaje de datos y documentos\n\t- Classificación y extracción de datos de los documentos con **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI** (modelos multimodales)\n\t- Uso extenso de **Pydantic** y customización de su comportamiento interno para ajustarse requerimientos particulares\n\t- Lectura de secretos de **Azure Key Vault**\n\t- Combinación de desencadenadores de tipo HTTP and de colas con **Azure Storage Queues** para completar nuestro workflow\n\t- Almacenaje de documentos en **Azure Blob Storage**\n\t- Almacenaje de resultados en **Azure CosmosDB**\n\t- Chatbot para ayudar al usuario a entender los resultados via RAG basado en **Azure AI Foundry**, **Azure AI Search**, y **Langchain**\n\t- Testing con **pytest**\n\t- Eventual migración del código monolítico en múltiples microservicios\n\t\t- Librerías, implementadas con **Docker** y **uv**, originalmente alojadas en **Azure Artifacts** migradas a **AWS CodeArtifact**\n\t\t- CI/CD migrado de **Azure DevOps** a **Bitbucket**\n\t\t- Infraestructura via **Terraform** y chequeada con **Lacework**\n\n- Desarrollo del **backend** para el cliente (Immfly, una plataforma de entretenimiento para aerolíneas)\n\t- Mejoras y nuevas funcionalidades, correcciones de bugs, limpieza y estandarización del código de su app de **Django**\n\t\t- Eg. implementación de un proceso de control de calidad que recibe los comentarios de los clientes, intenta un diagnóstico y reparación automática, y reporta los resultados (email, Mattermost)\n\t- Almacenamiento y abastecimiento de **contenido multimedia** (vídeos, imágenes, audio) de **Amazon AWS S3**\n\t- Extenso uso de validadores de **pydantic** al aceptar los archivos csv y xlsx de empresas externas\n\t- Migración de unittests a **pytest** y mejoras en su estrategia de testeo\n\t- Amplio uso de tareas de **celery** (incluyendo \"base tasks\" para estandarizar el comportamiento) y algunas cronjobs\n\t- Creación de endpoints con **Django Rest Framework** para devolver los metadatos del contenido multimedia\n\t- Descarga de archivos de un servidor **SFTP** de un proveedor externo y subida la plataforma del cliente\n\t- Uso de **pipelines de gitlab** para ejecutar scripts en los entornos cloud (ie. los aviones)\n\t- Ejecución en pods de **kubernetes** (mediante kubectl así como la UI de la web)\n\t- Desarrollo, testeo, y depuración dentro de un **DevContainer** con un Dockerfile de tipo \"multi-stage\" y Docker Compose\n\t- Gestión de tickets en Jira y generación de documentación en Confluence\n\n- Desarrollo del **backend** y la **CI/CD del frontend** para la web y las apps de Android e iOS del cliente (Holaluz, una instaladora de módulos fotovoltaicos)\n\t- Servidor **ExpressJS (NodeJS)** con **Typescript** desplegado a AWS\n\t- Pipelines de **CI/CD** via GitHub Actions y Codemagic.io para desplegar las apps de **Ionic Vue** a las stores de Google y Apple\n\n- **Automatización de procesos de negocio** para el cliente, Holaluz \n\t- Mantenimiento y extensión de bots de **UiPath**\n\t- Liderar el uso de **Robocorp (Python)** en el cliente\n\t\t- Configuración y mantenimiento de workers (instancias AWS EC2)\n\t\t- Gestión del Control Room de Robocorp (ie. Orchestrator)\n\t\t- Migración de bots de UiPath\n\t- **Automatización web** (Playwright)\n\t\t- Log in y firmas de documentos con **certificados digitales** (RedTrust)\n\t\t- Relleno de formularios y descarga/subida de ficheros, interactuando con páginas gubernamentales y el CRM y Drive del cliente (Zoho)\n\t- Automatización de escritorio: interacción con apps de Java para certificados digitales (AutoFirma) y visores de PDF que no respondían bien a las acciones del explorador web\n\t- Automatización de email y Slack para crear **reports y alertas**\n\t- CI/CD: pipeline de **GitHub Actions** para el QA y despliegue al Control Room de Robocorp\n\t- Algo de experiencia con Terraform e IaC para expandir el disco duro de las EC2 o los owners de los repositorios\n\t- Arrancar desde cero un Automations CoE en el cliente, así como un servicio de gobernanza\n\t\t- Desarrollo de **librarías internas**\n\t\t\t- Una librerías con funciones de uso general, comunes a varios proyectos: una plantilla para automatizaciones web, interacciones con Excel, Google Sheets, Google Drive, archivos y carpetas del OS, etc.\n\t\t\t- Una librería para interactuar con Zoho, ie. el CRM, Drive, y módulo de analytics del cliente, a través del explorador web\n\t\t- Desarrollo de **herramientas y plantillas internas**\n\t\t\t- Una plantilla para estandarizar la dinámica del Productor-Consumidor (similar al REFramework de UiPath), así como ayudas en el desarrollo de un bot típico (eg. validación automática de campos, reporting de errores)\n\t\t\t- Una herramienta para actualizar un bot existente a la nueva plantilla mediante scripts de **PowerShell**\n\t\t\t- Una herramienta para actualizar simultáneamente la misma librería utilizada en varios proyectos mediante Turbolift (similar a la Mass Dependency Update tool de UiPath)\n\t\t- Mentorización de los miembros de distintos departamentos del cliente y formaciones impartidas a consultores junior\n\t\t- Elaboración de un documento AS-IS y TO-BE de la gobernanza de las plataformas de automatización en el cliente"
+    },
+    "edp-en-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "RPA Developer",
+        "start": "2019-11-03",
+        "end": "2020-12-31",
+        "company": "EDP Spain",
+        "location": "Madrid, Spain"
+      },
+      "content": "\n- Back office automation with **UiPath** and **Python**\n- Document batch generation (Excel, PDF), **web scraping** (selenium, scrapy, beautiful soup, requests), and desktop automation (pyautogui)\n"
+    },
+    "edp-en": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "RPA Developer",
+        "start": "2019-11-03",
+        "end": "2020-12-31",
+        "company": "EDP Spain",
+        "location": "Madrid, Spain"
+      },
+      "content": "\n- Back office automation with **UiPath** and **Python**\n- Document batch generation: Excel, PDF\n- **Web data scraping** and entry: selenium, scrapy, beautiful soup, and requests\n- Desktop automation: pyautogui\n"
+    },
+    "edp-es-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Desarrollador RPA",
+        "start": "2019-11-03",
+        "end": "2020-12-31",
+        "company": "EDP Spain",
+        "location": "Madrid, España"
+      },
+      "content": "\n- Automatización de procesos del Back Office con **UiPath** y **Python**\n- Generación de documentos por tandas: Excel, PDF\n- **Scraping de datos en la web** y formularios: selenium, scrapy, beautiful soup, y requests\n- Automatización de escritorio: pyautogui\n"
+    },
+    "edp-es": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Desarrollador RPA",
+        "start": "2019-11-03",
+        "end": "2020-12-31",
+        "company": "EDP Spain",
+        "location": "Madrid, España"
+      },
+      "content": "\n- Automatización de procesos del Back Office con **UiPath** y **Python**\n- Generación de documentos por tandas: Excel, PDF\n- **Scraping de datos en la web** y formularios: selenium, scrapy, beautiful soup, y requests\n- Automatización de escritorio: pyautogui\n"
+    },
+    "jbt-en-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "RPA Programmer Analyst",
+        "start": "2021-01-04",
+        "end": "2023-01-15",
+        "company": "John Bean Technologies",
+        "location": "Madrid, Spain"
+      },
+      "content": "\n- **Business process automation** and **data delivery** for financial departments with **Python**, **Blue Prism**, **Power Automate**/Apps, and Tableau\n- Automation within the Office suite with **Microsoft Graph API**  \n- Web automation: document upload/download to and from ERPs, online forms, and dashboards  \n- Email automation: send/receive emails with attachments, images  \n- Data delivery with Tableau for KPI reports and dashboards    \n- Excel automation and Office Scripts\n- **Deployment** and maintenance of bots\n- App creation (forms, DB storage) with Power Apps  \n- Reequirements gathering and project delivery\n"
+    },
+    "jbt-en": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "RPA Programmer Analyst",
+        "start": "2021-01-04",
+        "end": "2023-01-15",
+        "company": "John Bean Technologies",
+        "location": "Madrid, Spain"
+      },
+      "content": "\n- **Business process automation** and **data delivery** for the financial departments of the ESSC and NASSC with **Python**, **Blue Prism**, **Power Automate**/Apps, Tableau, Office Scripts, Azure (Functions, DevOps, SQL)  \n- API-based automation within the Office suite with **Microsoft Graph API**  \n- Web automation: selenium for document upload/download to and from ERPs, online forms, and dashboards  \n- Email automation: send/receive emails with attachments, images  \n- Data processing and delivery with Tableau: SQL DBs, Excel for KPI reports and dashboards, Tableau API    \n- Excel automation: Python (pandas, openpyxl, xlwings) and Office Scripts for massive file uploads (eg. CSV)  \n- **Deployment** and maintenance of bots on in-house VMs or Power Platform environments  \n- App creation (forms, DB storage) with Power Apps  \n- Project management and documentation with Jira and Confluence  \n- Regular meetings with the various department heads in North America and Europe in a business analyst capacity (requirements gathering and project delivery)\n"
+    },
+    "jbt-es-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "RPA Programmer Analyst",
+        "start": "2021-01-04",
+        "end": "2023-01-15",
+        "company": "John Bean Technologies",
+        "location": "Madrid, España"
+      },
+      "content": "\n- **Automatización de procesos de negocio** y **entrega de datos** para los departamentos financieros con **Python**, **Blue Prism**, **Power Automate**/Apps, Tableau, Office Scripts, Azure (Functions, DevOps, SQL)  \n- Automatización de Office con **Microsoft Graph API** \n- Automatización web: descarga/subida de documentos en ERP, formularios, y dashboards  \n- Automatización de email: enviar/recibir emails con adjuntos, imágenes  \n- Entrega de datos con Tableau:: SQL, Tableau API    \n- Automatización Excel: Python y Office Scripts para carga masiva de ficheros (eg. CSV)  \n- **Despliegue** y mantenimiento de bots en VMs y Power Platform\n- Desarrollo de apps (formularios, almacenaje en BBDD) con Power Apps  \n- Gestión y documentación de proyectos con Jira y Confluence  \n- Reuniones continuas con los jefes de los departamentos de Norte América y Europa para la toma de requerimientos y entrega del proyecto\n"
+    },
+    "jbt-es": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "RPA Programmer Analyst",
+        "start": "2021-01-04",
+        "end": "2023-01-15",
+        "company": "John Bean Technologies",
+        "location": "Madrid, España"
+      },
+      "content": "\n- **Automatización de procesos de negocio** y **entrega de datos** para los departamentos financieros del ESSC y NASSC con **Python**, **Blue Prism**, **Power Automate**/Apps, Tableau, Office Scripts, Azure (Functions, DevOps, SQL)  \n- Automatización de la suite de Office con **Microsoft Graph API**  \n- Automatización web: descarga/subida de documentos en ERP, formularios, y dashboards  \n- Automatización de email: enviar/recibir emails con adjuntos, imágenes  \n- Procesado y entrega de datos con Tableau: SQL DBs, Excel para reports y dashboards de KPIs, Tableau API    \n- Automatización de Excel: Python (pandas, openpyxl, xlwings) y Office Scripts para carga masiva de ficheros (eg. CSV)  \n- **Despliegue** y mantenimiento de bots en VMs de la empresa y de entornos en Power Platform\n- Desarrollo de apps (formularios, almacenaje en BBDD) con Power Apps  \n- Gestión y documentación de proyectos con Jira y Confluence  \n- Reuniones continuas con los jefes de los departamentos de Norte América y Europa para la toma de requerimientos y entrega del proyecto\n"
+    },
+    "ss-en-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Backoffice Technician",
+        "start": "2013-06-15",
+        "end": "2015-06-15",
+        "company": "Solar Solution, LLC",
+        "location": "Washington, DC, USA"
+      },
+      "content": "\n- Document automation (JavaScript, VBA) and pipeline management (VBA)\n"
+    },
+    "ss-en": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Backoffice Technician",
+        "start": "2013-06-15",
+        "end": "2015-06-15",
+        "company": "Solar Solution, LLC",
+        "location": "Washington, DC, USA"
+      },
+      "content": "\n- **Self-motivated initiative** to automate existing workflows in the office\n- Automation of **document generation** with JavaScript, VBA: customer proposals, interconnection agreements\n- Pipeline management with VBA: a simple tool to help keep track of each customer's progress\n"
+    },
+    "ss-es-sum": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Técnico de Backoffice",
+        "start": "2013-06-15",
+        "end": "2015-06-15",
+        "company": "Solar Solution, LLC",
+        "location": "Washington, DC, EEUU"
+      },
+      "content": "\n- **Iniciativa propia** de automatizar flujos de trabajo en la oficina\n- Automatización de **generación de documentos** con JavaScript, VBA: presupuestos, contratos\n- Gestión de clientes con VBA: una herramienta sencilla para rastrear el progreso de cada instalación"
+    },
+    "ss-es": {
+      "frontmatter": {
+        "type": "professional",
+        "title": "Técnico de Backoffice",
+        "start": "2013-06-15",
+        "end": "2015-06-15",
+        "company": "Solar Solution, LLC",
+        "location": "Washington, DC, EEUU"
+      },
+      "content": "\n- **Iniciativa propia** de automatizar flujos de trabajo en la oficina\n- Automatización de **generación de documentos** con JavaScript, VBA: presupuestos, contratos\n- Gestión de clientes con VBA: una herramienta sencilla para rastrear el progreso de cada instalación"
+    }
+  },
+  "project": {
+    "cv-en-sum": {
+      "frontmatter": {
+        "type": "project",
+        "title": "CV"
+      },
+      "content": "\nThis site was developed with Tanstack, Vite, and `React`. It converts markdown files to html and uses `pdfMake` to create the downloadable PDF version of this site.\n"
+    },
+    "cv-en": {
+      "frontmatter": {
+        "type": "project",
+        "title": "CV"
+      },
+      "content": "\nThis site was developed with Tanstack, Vite, and `React`. It converts markdown files to html and uses `pdfMake` to create the downloadable PDF version of this site.\n"
+    },
+    "cv-es-sum": {
+      "frontmatter": {
+        "type": "project",
+        "title": "CV"
+      },
+      "content": "\nEsta web se ha desarrollado con Tanstack, Vite, y `React`. Convierte el contenido de tipo markdown a html y utiliza `pdfMake` para crear el PDF que te puedes descargar de este sitio.\n"
+    },
+    "cv-es": {
+      "frontmatter": {
+        "type": "project",
+        "title": "CV"
+      },
+      "content": "\nEsta web se ha desarrollado con Tanstack, Vite, y `React`. Convierte el contenido de tipo markdown a html y utiliza `pdfMake` para crear el PDF que te puedes descargar de este sitio.\n"
+    },
+    "django-en-sum": {
+      "frontmatter": {
+        "type": "project",
+        "title": "Django"
+      },
+      "content": "Dockerized Django app leveraging `django-ninja` and HTMX for a crypto trading bot. A DevContainer sets up via `docker compose` a few services such as:\n- Auth with `django-allauth`, including Google OAuth\n- Background workers with `django-tasks` (migrated from Celery)\n- PostgresSQL for storing its configuration and orders placed\n- Chat via websockets (`django-channels`) with Groq and Ollama\n\nDependency management with `uv` and CI/CD with GitHub Actions and `pytest`."
+    },
+    "django-en": {
+      "frontmatter": {
+        "type": "project",
+        "title": "Django"
+      },
+      "content": "Dockerized Django app leveraging `django-ninja` and HTMX for a crypto trading bot. A DevContainer sets up via `docker compose` a few services such as:\n- Auth with `django-allauth`, including Google OAuth\n- Background workers with `django-tasks` (migrated from Celery)\n- PostgresSQL for storing its configuration and orders placed\n- Chat via websockets (`django-channels`) with Groq and Ollama\n\nDependency management with `uv` and CI/CD with GitHub Actions and `pytest`."
+    },
+    "django-es-sum": {
+      "frontmatter": {
+        "type": "project",
+        "title": "Django"
+      },
+      "content": "App de Django Dockerizada aprovechando `django-ninja` y HTMX para un bot de trading crypto. Un DevContainer lanza con `docker-compose` algunos servicios como:\n- Auth con `django-allauth`, incluyendo Google OAuth\n- Background workers con `django-tasks` (migrado de Celery)\n- PostgresSQL para almacenar su configuración y órdenes puestas\n- Chat mediante websockets (`django-channels`) con Groq y Ollama\n\nGestión de dependencias con `uv` y CI/CD con Github Actions y `pytest`."
+    },
+    "django-es": {
+      "frontmatter": {
+        "type": "project",
+        "title": "Django"
+      },
+      "content": "App de Django Dockerizada aprovechando `django-ninja` y HTMX para un bot de trading crypto. Un DevContainer lanza con `docker-compose` algunos servicios como:\n- Auth con `django-allauth`, incluyendo Google OAuth\n- Background workers con `django-tasks` (migrado de Celery)\n- PostgresSQL para almacenar su configuración y órdenes puestas\n- Chat mediante websockets (`django-channels`) con Groq y Ollama\n\nGestión de dependencias con `uv` y CI/CD con Github Actions y `pytest`."
+    }
+  },
+  "skills": {
+    "gen-en-sum": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Programming languages and software",
+        "start": "1970-01-01"
+      },
+      "content": "- **Python**: **Django**, FastAPI, playwright, Robocorp, etc.\n- **Docker**, CI/CD, IaC (Azure, AWS)\n- **TypeScript/JavaScript**, MS Office Scripts\n"
+    },
+    "gen-en": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Programming languages and software",
+        "start": "1970-01-01"
+      },
+      "content": "- **Python**: **Django**, FastAPI, playwright, Robocorp, etc.\n- **Docker**, CI/CD, IaC (Azure, AWS)\n- **TypeScript/JavaScript**, MS Office Scripts\n"
+    },
+    "gen-es-sum": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Lenguajes de programación y software",
+        "start": "1970-01-01"
+      },
+      "content": "- **Python**: **Django**, FastAPI, playwright, Robocorp, etc.\n- **Docker**, CI/CD, IaC (Azure, AWS)\n- **TypeScript/JavaScript**, MS Office Scripts\n"
+    },
+    "gen-es": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Lenguajes de programación y software",
+        "start": "1970-01-01"
+      },
+      "content": "- **Python**: **Django**, FastAPI, playwright, Robocorp, etc.\n- **Docker**, CI/CD, IaC (Azure, AWS)\n- **TypeScript/JavaScript**, MS Office Scripts\n"
+    },
+    "native-en-sum": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Native-level English",
+        "start": "1970-01-02"
+      },
+      "content": "**Native-level English** due to an academic career and professional experience abroad"
+    },
+    "native-en": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Native-level English",
+        "start": "1970-01-02"
+      },
+      "content": "**Native-level English** due to an academic career and professional experience abroad"
+    },
+    "native-es-sum": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Inglés a nivel nativo",
+        "start": "1970-01-02"
+      },
+      "content": "**Inglés a nivel nativo** debido a una formación y experiencia laboral en el extranjero\n"
+    },
+    "native-es": {
+      "frontmatter": {
+        "type": "skills",
+        "title": "Inglés a nivel nativo",
+        "start": "1970-01-02"
+      },
+      "content": "**Inglés a nivel nativo** debido a una formación y experiencia laboral en el extranjero\n"
+    }
+  }
+}

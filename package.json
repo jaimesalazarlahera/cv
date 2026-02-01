@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vite dev --port 3000",
-    "build": "vite build && node scripts/update-index.js",
+    "build": "node scripts/generate-cv-data.js && vite build && node scripts/update-index.js",
     "preview": "vite preview",
     "test": "vitest run"
   },

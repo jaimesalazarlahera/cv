@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import { getCVContent } from '../server/cv'
+import cvContent from '../data/cv-content.json'
 import Intro from '../components/Intro'
 import ProfessionalExperience from '../components/ProfessionalExperience'
 import AcademicExperience from '../components/AcademicExperience'
@@ -11,8 +11,7 @@ import Controls from '../components/Controls'
 export const Route = createFileRoute('/')({
   component: Home,
   loader: async () => {
-    const content = await getCVContent()
-    return { content }
+    return { content: cvContent }
   },
 })
 
