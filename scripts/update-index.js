@@ -1,15 +1,15 @@
 import fs from 'fs';
 
-const assetsDir = '.output/public/assets';
-const indexFile = '.output/public/index.html';
+const assetsDir = 'dist/client/assets';
+const indexFile = 'dist/client/index.html';
 
 // Find the index-*.js file
 const files = fs.readdirSync(assetsDir);
 const indexJs = files.find(f => f.startsWith('index-') && f.endsWith('.js'));
 
 if (!indexJs) {
-  console.error('Could not find index-*.js file');
-  process.exit(1);
+    console.error('Could not find index-*.js file');
+    process.exit(1);
 }
 
 // Generate new index.html

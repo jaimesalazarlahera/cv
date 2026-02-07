@@ -27,12 +27,12 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - run: test -f .output/public/index.html && echo "index.html found" || echo "index.html NOT found"
-      - run: ls .output/public/
+      - run: test -f dist/client/index.html && echo "index.html found" || echo "index.html NOT found"
+      - run: ls dist/client/
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist/client
 
 
   deploy:
