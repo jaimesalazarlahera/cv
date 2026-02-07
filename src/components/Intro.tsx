@@ -43,7 +43,7 @@ export default function Intro({ data, skills = [], metaData }: IntroProps) {
 
   return (
     <header className="flex flex-col items-center mb-24">
-      <img src="/images/me.jpg" alt={name} className="w-40 h-40 rounded-full object-cover mb-6 shadow-md" />
+      <img src={`${import.meta.env.BASE_URL}images/me.jpg`} alt={name} className="w-40 h-40 rounded-full object-cover mb-6 shadow-md" />
       <h1 className="text-4xl font-bold mb-6">{name}</h1>
       <div className="flex gap-6 mb-8 text-sm font-medium text-gray-600">
         <a href={linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors" title={metaData?.frontmatter?.toolTipLinkedIn}>
