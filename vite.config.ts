@@ -13,6 +13,7 @@ const config = defineConfig({
     },
   },
   build: {
+    outDir: 'dist/client',
     rollupOptions: {
       output: {
         entryFileNames: 'assets/[name].js',
