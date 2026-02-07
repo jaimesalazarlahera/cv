@@ -9,7 +9,7 @@ export const Route = createRootRoute({
 function RootComponent() {
   useEffect(() => {
     // Update page title
-    document.title = 'Jaime Salazar'
+    document.title = 'Jaime Salazar Lahera'
   }, [])
 
   return (

@@ -5,7 +5,7 @@ function downloadCVPdf(lang: string, summ: boolean) {
     console.log('Downloading PDF for ', lang, summ)
     const filename = getDownloadedPDFName(lang, summ)
     const link = document.createElement('a')
-    link.href = `/cvs/${filename}`
+    link.href = `${import.meta.env.BASE_URL}/cvs/${filename}`
     link.download = filename
     document.body.appendChild(link)
     link.click()
@@ -58,7 +58,7 @@ export default function Controls({
     }
 
     return (
-        <div className="flex justify-end gap-4 mb-8 text-sm print:hidden">
+        <div className="fixed top-6 right-6 z-50 flex justify-end gap-4 text-sm print:hidden">
             <div className="flex bg-gray-100 rounded p-1">
                 <button
                     onClick={() => setLang('en')}
@@ -78,13 +78,13 @@ export default function Controls({
                     onClick={() => setSumm(false)}
                     className={`px-3 py-1 rounded ${!summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
                 >
-                    CV
+                    +
                 </button>
                 <button
                     onClick={() => setSumm(true)}
                     className={`px-3 py-1 rounded ${summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
                 >
-                    RESUME
+                    -
                 </button>
             </div>
             <button

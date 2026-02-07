@@ -1,6 +1,7 @@
 export function getDownloadedPDFName(lang: string, sum: boolean) {
     const language = lang === "en" ? "English" : "Español";
-    const type = sum ? "Resumé" : "CV";
+    // const type = sum ? "Resumé" : "CV";
+    const type = "CV"
 
     return `${type} (${language}) - Jaime Salazar Lahera.pdf`;
 }
@@ -89,7 +90,7 @@ export async function createIntro(text: string, image: string) {
                     fontSize: 10,
                 },
                 {
-                    text: "github.io/cv",
+                    text: "jaimesalazarlahera.github.io/cv",
                     link: "https://jaimesalazarlahera.github.io/cv",
                     color: "blue",
                     alignment: "right",

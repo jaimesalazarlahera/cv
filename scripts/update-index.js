@@ -18,7 +18,7 @@ const html = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jaime Salazar</title>
+    <title>Jaime Salazar Lahera</title>
 </head>
 <body>
     <div id="root"></div>
