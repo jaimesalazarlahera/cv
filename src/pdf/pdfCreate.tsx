@@ -15,7 +15,7 @@ import {
 
 interface GenerateCVPdfProps {
     lang: string;
-    sum: boolean;
+    summ: boolean;
     meta: any;
     intro: any;
     professional: any[];
@@ -26,7 +26,7 @@ interface GenerateCVPdfProps {
 
 export const generateCVPdf = async ({
     lang,
-    sum,
+    summ,
     meta,
     intro,
     professional,
@@ -34,16 +34,19 @@ export const generateCVPdf = async ({
     skills,
     projects,
 }: GenerateCVPdfProps) => {
+    console.log('Generating PDF for ', lang, summ)
+
     if (pdfMake.vfs) {
         pdfMake.vfs = vfs;
     }
 
     const content: any[] = [];
+    const avatarUrl = `${import.meta.env.BASE_URL}images/me.jpg`;
 
     content.push(createTitle(meta?.name || "Jaime Salazar Lahera"));
     if (intro) {
         content.push(
-            await createIntro(intro.content, "/images/me.jpg")
+            await createIntro(intro.content, avatarUrl)
         );
     }
     if (professional && professional.length > 0) {
@@ -87,6 +90,8 @@ export const generateCVPdf = async ({
         },
     });
 
-    const filename = getDownloadedPDFName(lang, sum);
+    const filename = getDownloadedPDFName(lang, summ);
     pdfMake.createPdf(docDefinition).download(filename);
+
+    console.log('Generated PDF for ', lang, summ)
 };

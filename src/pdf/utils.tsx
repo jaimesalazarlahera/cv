@@ -89,8 +89,8 @@ export async function createIntro(text: string, image: string) {
                     fontSize: 10,
                 },
                 {
-                    text: "jaimesalazarlahera.vercel.app",
-                    link: "https://jaimesalazarlahera.vercel.app",
+                    text: "github.io/cv",
+                    link: "https://jaimesalazarlahera.github.io/cv",
                     color: "blue",
                     alignment: "right",
                     fontSize: 10,

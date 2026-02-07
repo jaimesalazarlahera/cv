@@ -2,6 +2,7 @@ import { generateCVPdf } from '../pdf/pdfCreate'
 import { getDownloadedPDFName } from '../pdf/utils'
 
 function downloadCVPdf(lang: string, summ: boolean) {
+    console.log('Downloading PDF for ', lang, summ)
     const filename = getDownloadedPDFName(lang, summ)
     const link = document.createElement('a')
     link.href = `/cvs/${filename}`
@@ -9,6 +10,7 @@ function downloadCVPdf(lang: string, summ: boolean) {
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
+    console.log('Downloaded PDF for ', lang, summ)
 }
 
 interface ControlsProps {
@@ -42,7 +44,7 @@ export default function Controls({
         if (import.meta.env.DEV) {
             await generateCVPdf({
                 lang,
-                sum: summ,
+                summ,
                 meta,
                 intro,
                 professional: experiences,
