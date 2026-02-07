@@ -1,4 +1,4 @@
-import { createRootRoute } from '@tanstack/react-router'
+import { createRootRoute, Outlet } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import { useEffect } from 'react'
 
@@ -14,7 +14,10 @@ function RootComponent() {
 
   return (
     <>
-      <TanStackRouterDevtools position="bottom-right" />
+      <Outlet />
+      {import.meta.env.DEV ? (
+        <TanStackRouterDevtools position="bottom-right" />
+      ) : null}
     </>
   )
 }
