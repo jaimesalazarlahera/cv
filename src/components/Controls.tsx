@@ -40,6 +40,9 @@ export default function Controls({
     skills,
     projects,
 }: ControlsProps) {
+    const moreDetailsText = meta?.['buttonSum-true'] ?? 'More details'
+    const fewerDetailsText = meta?.['buttonSum-false'] ?? 'Fewer details'
+
     const generatePdf = async () => {
         if (import.meta.env.DEV) {
             await generateCVPdf({
@@ -77,12 +80,16 @@ export default function Controls({
                 <button
                     onClick={() => setSumm(false)}
                     className={`px-3 py-1 rounded ${!summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
+                    title={moreDetailsText}
+                    aria-label={moreDetailsText}
                 >
                     +
                 </button>
                 <button
                     onClick={() => setSumm(true)}
                     className={`px-3 py-1 rounded ${summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
+                    title={fewerDetailsText}
+                    aria-label={fewerDetailsText}
                 >
                     -
                 </button>
