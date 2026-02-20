@@ -42,6 +42,9 @@ export default function Controls({
 }: ControlsProps) {
     const moreDetailsText = meta?.['buttonSum-true'] ?? 'More details'
     const fewerDetailsText = meta?.['buttonSum-false'] ?? 'Fewer details'
+    const enFlagBackground =
+        'linear-gradient(90deg, transparent 45%, #c8102e 45%, #c8102e 55%, transparent 55%), linear-gradient(0deg, transparent 45%, #c8102e 45%, #c8102e 55%, transparent 55%), linear-gradient(90deg, transparent 42%, #ffffff 42%, #ffffff 58%, transparent 58%), linear-gradient(0deg, transparent 42%, #ffffff 42%, #ffffff 58%, transparent 58%), linear-gradient(33deg, transparent 43%, #c8102e 43%, #c8102e 50%, transparent 50%), linear-gradient(-33deg, transparent 43%, #c8102e 43%, #c8102e 50%, transparent 50%), linear-gradient(33deg, transparent 41%, #ffffff 41%, #ffffff 52%, transparent 52%), linear-gradient(-33deg, transparent 41%, #ffffff 41%, #ffffff 52%, transparent 52%), #012169'
+    const esFlagBackground = 'linear-gradient(to bottom, #aa151b 0 25%, #f1bf00 25% 75%, #aa151b 75% 100%)'
 
     const generatePdf = async () => {
         if (import.meta.env.DEV) {
@@ -61,25 +64,31 @@ export default function Controls({
     }
 
     return (
-        <div className="fixed top-6 right-6 z-50 flex justify-end gap-4 text-sm print:hidden">
-            <div className="flex bg-gray-100 rounded p-1">
+        <div className="fixed top-6 right-6 z-50 flex justify-end gap-6 text-sm print:hidden">
+            <div className="flex items-center gap-1 bg-gray-100 rounded p-1">
                 <button
                     onClick={() => setLang('en')}
-                    className={`px-3 py-1 rounded ${lang === 'en' ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
+                    className={`w-12 h-7 rounded transition-all ${lang === 'en' ? 'ring-2 ring-white shadow-sm' : 'opacity-70'}`}
+                    style={{ background: enFlagBackground }}
+                    title="English"
+                    aria-label="English"
                 >
-                    EN
+                    <span className="sr-only">English</span>
                 </button>
                 <button
                     onClick={() => setLang('es')}
-                    className={`px-3 py-1 rounded ${lang === 'es' ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
+                    className={`w-12 h-7 rounded transition-all ${lang === 'es' ? 'ring-2 ring-white shadow-sm' : 'opacity-70'}`}
+                    style={{ backgroundImage: esFlagBackground, backgroundSize: 'cover' }}
+                    title="Español"
+                    aria-label="Español"
                 >
-                    ES
+                    <span className="sr-only">Español</span>
                 </button>
             </div>
-            <div className="flex bg-gray-100 rounded p-1">
+            <div className="flex bg-gray-100 rounded p-0">
                 <button
                     onClick={() => setSumm(false)}
-                    className={`px-3 py-1 rounded ${!summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
+                    className={`h-9 px-4 rounded ${!summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
                     title={moreDetailsText}
                     aria-label={moreDetailsText}
                 >
@@ -87,7 +96,7 @@ export default function Controls({
                 </button>
                 <button
                     onClick={() => setSumm(true)}
-                    className={`px-3 py-1 rounded ${summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
+                    className={`h-9 px-4 rounded ${summ ? 'bg-white shadow-sm font-medium' : 'text-gray-500'}`}
                     title={fewerDetailsText}
                     aria-label={fewerDetailsText}
                 >
@@ -96,7 +105,7 @@ export default function Controls({
             </div>
             <button
                 onClick={generatePdf}
-                className="px-3 py-1 rounded bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors flex items-center gap-2"
+                className="h-9 px-2 rounded bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors flex items-center gap-1.5"
                 title={cvDownloadText}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
