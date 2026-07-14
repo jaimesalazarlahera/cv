@@ -10,18 +10,18 @@ people: 4
 - Desarrollo para el cliente (el gobierno de una Comunidad Autónoma) de unas **Azure Functions (Python) dockerizadas** integradas con la **Inteligencia Artificial de Azure** para la tramitación de subvenciones y tareas administrativas
 	- Liderazgo técnico de un equipo de 4 desarrolladores
 	- Implementación del proceso e2e desde el request hasta el almacenaje de datos y documentos
-	- Classificación y extracción de datos de los documentos con **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI** (modelos multimodales)
-	- Uso extenso de **Pydantic** y customización de su comportamiento interno para ajustarse requerimientos particulares
+	- Clasificación y extracción de datos de los documentos con **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI**
+	- Uso extenso de **Pydantic** y customización de su comportamiento interno para ajustarse a requerimientos particulares
 	- Lectura de secretos de **Azure Key Vault**
 	- Combinación de desencadenadores de tipo HTTP and de colas con **Azure Storage Queues** para completar nuestro workflow
 	- Almacenaje de documentos en **Azure Blob Storage**
 	- Almacenaje de resultados en **Azure CosmosDB**
 	- Chatbot para ayudar al usuario a entender los resultados via RAG basado en **Azure AI Foundry**, **Azure AI Search**, y **Langchain**
 	- Testing con **pytest**
-	- Eventual migración del código monolítico en múltiples microservicios
+	- Eventual migración del código monolítico a múltiples microservicios
 		- Librerías, implementadas con **Docker** y **uv**, originalmente alojadas en **Azure Artifacts** migradas a **AWS CodeArtifact**
 		- CI/CD migrado de **Azure DevOps** a **Bitbucket**
-		- Infraestructura via **Terraform** y chequeada con **Lacework**
+	- Infraestructura via **Terraform** y chequeada con **Lacework**
 
 - Desarrollo del **backend** para el cliente (Immfly, una plataforma de entretenimiento para aerolíneas)
 	- Mejoras y nuevas funcionalidades, correcciones de bugs, limpieza y estandarización del código de su app de **Django**

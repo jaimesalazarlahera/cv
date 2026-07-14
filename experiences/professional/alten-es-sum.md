@@ -9,7 +9,7 @@ people: 4
 ---
 - Desarrollo para el cliente de unas **Azure Functions (Python) dockerizadas** integradas con la **Inteligencia Artificial de Azure** para la tramitación de subvenciones y tareas administrativas
 	- Liderazgo técnico del equipo de desarrollo
-	- Classificación y extracción de datos de los documentos: **Azure Document Intelligence** **Azure Custom Vision**, **Azure OpenAI**
+	- Clasificación y extracción de datos de los documentos: **Azure Document Intelligence** **Azure Custom Vision**, **Azure OpenAI**
 	- Uso avanzado y customización de **Pydantic**
 	- Desencadenadores de tipo HTTP and de colas con **Azure Storage Queues**
 	- Almacenaje de documentos y resultados en **Azure Blob Storage** y **Azure CosmosDB**

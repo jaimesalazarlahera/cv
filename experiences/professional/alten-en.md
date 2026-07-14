@@ -10,7 +10,7 @@ people: 4
 - Development of **Dockerized Azure Functions (Python)** for the client (a regional government) integrated with **Artificial Intelligence on Azure** for the processing of subsidies and administrative tasks
 	- Technical leadership of a team of 4 developers
 	- Implementation of the e2e process from the incoming request to the storage of data and documents
-	- Classification of and data extraction from documents using **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI** (multimodal models)
+	- Classification of and data extraction from documents using **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI**
 	- Ample use of **Pydantic** for data validation, overriding its internals for custom, advanced behavior
 	- Combination of HTTP- and Queue-triggered functions for our complete workflow using **Azure Storage Queues**
 	- Retrieval of secrets from **Azure Key Vault**
@@ -18,10 +18,10 @@ people: 4
 	- Results storage in **Azure CosmosDB**
 	- Chatbot to help the user understand the results via RAG based on **Azure AI Foundry**, **Azure AI Search**, and **Langchain**
 	- Testing with **pytest**
-	- Eventual migration of the monolithic code into multiple **microservices**
+	- Eventual migration of the monolithic code to multiple **microservices**
 		- Libraries, implemented in **Docker** with **uv**, originally hosted in **Azure Artifacts** moved to **AWS CodeArtifact**
 		- CI/CD moved from **Azure DevOps** to **Bitbucket**
-		- Infrastructure via **Terraform** and checked with **Lacework**
+	- Infrastructure via **Terraform** and checked with **Lacework**
 
 - **Backend development** for the client (Immfly, an entertainment platform provider for airlines)
 	- Feature additions and improvements, bug fixes, code cleanup and standarization for their **Django** app
