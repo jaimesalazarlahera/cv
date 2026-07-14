@@ -31,7 +31,7 @@ async function generateCoverLetter(position, company) {
         const body = [
             { text: "To Whom This May Concern,\n\n" },
             {
-                text: `My name is Jaime Salazar, I am a Senior Developer in Madrid and I’m interested in the position of ${position} at ${company}.\n\n`,
+                text: `My name is Jaime Salazar, I am a Senior Backend Developer in Madrid and I’m interested in the position of ${position} at ${company}.\n\n`,
             },
             {
                 text: "Please feel free to browse ",
@@ -44,7 +44,7 @@ async function generateCoverLetter(position, company) {
             },
             {
                 text:
-                    ", featuring several years of experience in backend development, primarily with Azure Functions and Django, as well as within the broader Python ecosystem. In every project I have always advocated for following best practices, maintaining clean code, testing it thoroughly, and delivering it smoothly. I believe I can contribute this to the teams at " +
+                    ", featuring several years of experience in backend development, primarily with Django and Azure Functions, as well as within the broader Python ecosystem. In every project I have always advocated for the best practices, maintaining clean code, testing it thoroughly, and delivering it smoothly. These days I don't just instill these principles in my colleagues, I now demand the same from my AI coding assistants! I believe I can contribute this mentality to the teams at " +
                     company +
                     ".\n\n",
             },

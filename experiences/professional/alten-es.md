@@ -7,9 +7,9 @@ company: Alten Spain
 location: Madrid, España
 people: 4
 ---
-- Desarrollo para el cliente (el gobierno de una Comunidad Autónoma) de unas **Azure Functions (Python) dockerizadas** integrada con la **Inteligencia Artificial de Azure** para la tramitación de subvenciones
-	- Asumí el liderazgo del equipo tras la baja de paternidad de nuestro Team Lead
-	- Implementación del proceso desde el request hasta el almacenaje de datos y documentos
+- Desarrollo para el cliente (el gobierno de una Comunidad Autónoma) de unas **Azure Functions (Python) dockerizadas** integradas con la **Inteligencia Artificial de Azure** para la tramitación de subvenciones y tareas administrativas
+	- Liderazgo técnico de un equipo de 4 desarrolladores
+	- Implementación del proceso e2e desde el request hasta el almacenaje de datos y documentos
 	- Classificación y extracción de datos de los documentos con **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI** (modelos multimodales)
 	- Uso extenso de **Pydantic** y customización de su comportamiento interno para ajustarse requerimientos particulares
 	- Lectura de secretos de **Azure Key Vault**

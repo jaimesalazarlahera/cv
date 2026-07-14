@@ -7,9 +7,9 @@ company: Alten Spain
 location: Madrid, Spain
 people: 4
 ---
-- Development of **Dockerized Azure Functions (Python)** for the client (a regional government) integrated with **Artificial Intelligence on Azure** for the processing of subsidies
-	- Took on the leadership role after our Team Lead left on parental leave
-	- Implementation of the process from the incoming request to the storage of data and documents
+- Development of **Dockerized Azure Functions (Python)** for the client (a regional government) integrated with **Artificial Intelligence on Azure** for the processing of subsidies and administrative tasks
+	- Technical leadership of a team of 4 developers
+	- Implementation of the e2e process from the incoming request to the storage of data and documents
 	- Classification of and data extraction from documents using **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI** (multimodal models)
 	- Ample use of **Pydantic** for data validation, overriding its internals for custom, advanced behavior
 	- Combination of HTTP- and Queue-triggered functions for our complete workflow using **Azure Storage Queues**

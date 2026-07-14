@@ -10,7 +10,7 @@
     "build": "node scripts/generate-cv-data.js && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "cover": "NODE_OPTIONS='--localstorage-file=/tmp/node-localstorage' node scripts/cover-letter.js 'Software Engineer' 'Meetup'"
+    "cover": "NODE_OPTIONS='--localstorage-file=/tmp/node-localstorage' node scripts/cover-letter.js 'Senior Software Engineer' 'Mozilla'"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.2",
