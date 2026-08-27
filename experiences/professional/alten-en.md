@@ -12,7 +12,7 @@ people: 4
 	- Implementation of the e2e process from the incoming request to the storage of data and documents
 	- Classification of and data extraction from documents using **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI**
 	- Ample use of **Pydantic** for data validation, overriding its internals for custom, advanced behavior
-	- Combination of HTTP- and Queue-triggered functions for our complete workflow using **Azure Storage Queues**
+	- Combination of HTTP-, Queue-, and timer-triggered functions for our complete workflow using **Azure Storage Queues**
 	- Retrieval of secrets from **Azure Key Vault**
 	- Document storage in **Azure Blob Storage**
 	- Results storage in **Azure CosmosDB**

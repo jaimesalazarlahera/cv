@@ -13,7 +13,7 @@ people: 4
 	- Clasificación y extracción de datos de los documentos con **Azure Document Intelligence**, **Azure Custom Vision**, **Azure OpenAI**
 	- Uso extenso de **Pydantic** y customización de su comportamiento interno para ajustarse a requerimientos particulares
 	- Lectura de secretos de **Azure Key Vault**
-	- Combinación de desencadenadores de tipo HTTP and de colas con **Azure Storage Queues** para completar nuestro workflow
+	- Combinación de desencadenadores de tipo HTTP, de colas, y de tipo timer con **Azure Storage Queues** para completar nuestro workflow
 	- Almacenaje de documentos en **Azure Blob Storage**
 	- Almacenaje de resultados en **Azure CosmosDB**
 	- Chatbot para ayudar al usuario a entender los resultados via RAG basado en **Azure AI Foundry**, **Azure AI Search**, y **Langchain**

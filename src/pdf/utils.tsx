@@ -1,9 +1,9 @@
 export function getDownloadedPDFName(lang: string, sum: boolean) {
     const language = lang === "en" ? "English" : "Español";
-    // const type = sum ? "Resumé" : "CV";
-    const type = "CV"
-
-    return `${type} (${language}) - Jaime Salazar Lahera.pdf`;
+    const type = sum ? "Resumé" : "CV";
+    const filename = `${type} (${language}) - Jaime Salazar Lahera.pdf`;
+    console.log('Generated PDF name ', filename)
+    return filename;
 }
 
 
